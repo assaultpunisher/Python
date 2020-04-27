@@ -1,5 +1,8 @@
 
-#This program shows an example of bubble sort using Python
+# Created in PyCharm
+# Author: YUGAM
+
+# This program shows an example of bubble sort using Python
 
 #   Bubblesort is an elementary sorting algorithm. The idea is to
 #   imagine bubbling the smallest elements of a (vertical) array to the
@@ -19,6 +22,7 @@ def bubbleSort(List):
                 List[j], List[j - 1] = List[j - 1], List[j]
     return List
 
+
 if __name__ == '__main__':
     List = [3, 4, 2, 6, 5, 7, 1, 9]
-    print('Sorted List:',bubbleSort(List))
+    print('Sorted List:', bubbleSort(List))

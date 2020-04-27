@@ -1,7 +1,11 @@
 
-#This program guesses the randomnly generated number
+# Created in PyCharm
+# Author: YUGAM
+
+# This program guesses the randomnly generated number
 
 import random
+
 
 def guess():
     ''' This function guesses the randomnly generated number '''
@@ -18,6 +22,7 @@ def guess():
         else:
             print('You have got it in', count, 'tries')
             break
+
 
 if __name__ == '__main__':
     guess()

@@ -1,4 +1,7 @@
 
+# Created in PyCharm
+# Author: YUGAM
+
 # This programs shows the rules for variable scope
 
 x = 'Global x'

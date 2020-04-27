@@ -1,5 +1,8 @@
 
-#This program calculates the factorial of a given number
+# Created in PyCharm
+# Author: YUGAM
+
+# This program calculates the factorial of a given number
 
 def factorial(number):
     '''This function calculates the factorial of a number'''
@@ -8,12 +11,14 @@ def factorial(number):
     else:
         return number * factorial(number - 1)
 
+
 def factorial_without_recursion(number):
     fact = 1
-    while(number > 0):
+    while (number > 0):
         fact = fact * number
         number = number - 1
-    print('Factorial of', number,'is:',fact)
+    print('Factorial of', number, 'is:', fact)
+
 
 if __name__ == '__main__':
     userInput = int(input('Enter the number to find its factorial: '))

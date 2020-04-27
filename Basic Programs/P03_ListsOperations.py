@@ -1,4 +1,7 @@
 
+# Created in PyCharm
+# Author: YUGAM
+
 # This program gives examples about various list operations
 
 # Syntax: list[start: end: step]

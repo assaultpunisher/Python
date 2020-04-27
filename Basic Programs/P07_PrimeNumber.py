@@ -1,5 +1,8 @@
 
-#This program checks whether the entered number is prime or not
+# Created in PyCharm
+# Author: YUGAM
+
+# This program checks whether the entered number is prime or not
 
 def checkPrime(number):
     '''This function checks for prime number'''
@@ -17,6 +20,7 @@ def checkPrime(number):
 
         if isPrime:
             print(number, 'is a Prime Number')
+
 
 if __name__ == '__main__':
     userInput = int(input('Enter a number to check: '))

@@ -1,9 +1,12 @@
 
-#This program checks for the character frequency in the given string
+# Created in PyCharm
+# Author: YUGAM
+
+# This program checks for the character frequency in the given string
 
 def charFrequency(userInput):
-    '''This fuction helps to count the char frequency in the given string '''
-    userInput = userInput.lower() #covert to lowercase
+    """This function helps to count the char frequency in the given string """
+    userInput = userInput.lower()  # covert to lowercase
     dict = {}
     for char in userInput:
         keys = dict.keys()
@@ -12,6 +15,7 @@ def charFrequency(userInput):
         else:
             dict[char] = 1
     return dict
+
 
 if __name__ == '__main__':
     userInput = str(input('Enter a string: '))

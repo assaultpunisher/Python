@@ -1,5 +1,8 @@
 
-#This program takes input from user and sorts the numbers in two arrays, one of even and other of odd
+# Created in PyCharm
+# Author: YUGAM
+
+# This program takes input from user and sorts the numbers in two arrays, one of even and other of odd
 
 def evenOdd(numbers):
     '''This function divides the numbers in two arrays one of even and other of odd'''
@@ -11,6 +14,7 @@ def evenOdd(numbers):
         else:
             odd.append(number)
     return even, odd
+
 
 if __name__ == '__main__':
     userInput = input("Enter the numbers (space separated) to check: ")

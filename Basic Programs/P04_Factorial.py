@@ -1,5 +1,8 @@
 
-#This program finds the favtorial of the specified numbers
+# Created in PyCharm
+# Author: YUGAM
+
+# This program finds the factorial of the specified numbers
 
 def factorial(number):
     if number < 0:
@@ -8,6 +11,7 @@ def factorial(number):
         return 1
     else:
         return number * factorial(number - 1)
+
 
 if __name__ == '__main__':
     userInput = int(input('Enter the Number to find the factorial : '))

@@ -1,11 +1,15 @@
 
-#This program illustrates a logging example
+# Created in PyCharm
+# Author: YUGAM
+
+# This program illustrates a logging example
 
 import logging
 
+
 def log(number):
     ''' This function creates a log file if any error is reported '''
-    logging.basicConfig(filename = 'P18-logfile.txt', level = logging.INFO)
+    logging.basicConfig(filename='P18-logfile.txt', level=logging.INFO)
     try:
         if int(number) % 2 == 0:
             print('Successful')
@@ -14,6 +18,7 @@ def log(number):
             logging.info('Invalid Entry')
     except:
         print('Please enter a valid integer')
+
 
 if __name__ == '__main__':
     try:
